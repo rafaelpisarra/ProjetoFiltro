@@ -8,7 +8,7 @@ export const UsersList: User[] = [
     idade: "28",
     endereco: {
       rua: "Av. Brasil",
-      numero: "789",
+      numero: 789,
       bairro: "Jardins",
       cidade: "Rio de Janeiro",
       estado: "RJ",
@@ -32,7 +32,7 @@ export const UsersList: User[] = [
     idade: "45",
     endereco: {
       rua: "Rua das Palmeiras",
-      numero: "456",
+      numero: 456,
       bairro: "Bela Vista",
       cidade: "Curitiba",
       estado: "PR",
@@ -56,7 +56,7 @@ export const UsersList: User[] = [
     idade: "33",
     endereco: {
       rua: "Travessa do Sol",
-      numero: "35",
+      numero: 35,
       bairro: "Centro",
       cidade: "Salvador",
       estado: "BA",
@@ -80,7 +80,7 @@ export const UsersList: User[] = [
     idade: "39",
     endereco: {
       rua: "Rua Projetada",
-      numero: "987",
+      numero: 987,
       bairro: "Industrial",
       cidade: "Belo Horizonte",
       estado: "MG",
@@ -104,7 +104,7 @@ export const UsersList: User[] = [
     idade: "26",
     endereco: {
       rua: "Rua do Comércio",
-      numero: "12",
+      numero: 12,
       bairro: "São Francisco",
       cidade: "Florianópolis",
       estado: "SC",

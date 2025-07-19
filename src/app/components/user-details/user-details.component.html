@@ -5,31 +5,36 @@
         </mat-list-item>
         <mat-divider></mat-divider>
         <mat-list-item>
-            <span class=" mat-h2">Nome: </span><span>fulano</span>
+            <span class=" mat-h2">Nome: </span><span>{{user.nome | dashIfEmpty}}</span>
         </mat-list-item>
         <mat-divider></mat-divider>
         <mat-list-item >
-            <span class=" mat-h2">Idade: </span><span>fulano</span>
+            <span class=" mat-h2">Idade: </span><span>{{user.idade | dashIfEmpty}}</span>
         </mat-list-item>
         <mat-divider></mat-divider>
         <mat-list-item>
-            <span class=" mat-h2">Email: </span><span>fulano</span>
+            <span class=" mat-h2">Email: </span><span>{{user.email | dashIfEmpty}}</span>
         </mat-list-item>
         <mat-divider></mat-divider>
         <mat-list-item>
-            <span class=" mat-h2">Endereço: </span><span>fulano</span>
+            <span class=" mat-h2">Endereço: </span><span> {{user.endereco | address}}
+        </span>
         </mat-list-item>
         <mat-divider></mat-divider>
         <mat-list-item >
-            <span class=" mat-h2">Telefone: </span><span>fulano</span>
+            <span class=" mat-h2">Telefone: </span><span>{{user.telefone | phone}}</span>
         </mat-list-item>
         <mat-divider></mat-divider>
         <mat-list-item>
-            <span class=" mat-h2">Data de cadstro: </span><span>fulano</span>
+            <span class=" mat-h2">Data de cadstro: </span><span>{{user.dataCadastro | date:'dd/MM/yyyy'}}</span>
         </mat-list-item>
         <mat-divider></mat-divider>
         <mat-list-item>
-            <span class=" mat-h2">Status </span><span>fulano</span>
+            <span class=" mat-h2">Status: </span><span>{{user.ativo | status}}</span>
+        </mat-list-item>
+        <mat-divider></mat-divider>
+        <mat-list-item>
+             <span class=" mat-h2">Função: </span><span>{{user.funcao | dashIfEmpty}}</span>
         </mat-list-item>
         <mat-divider></mat-divider>
     </mat-list>

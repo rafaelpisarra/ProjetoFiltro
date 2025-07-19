@@ -4,10 +4,12 @@ import { MatListModule } from '@angular/material/list';
 import { MatSelectModule } from '@angular/material/select';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
-import { MatButtonModule} from '@angular/material/button';
+import { MatButtonModule } from '@angular/material/button';
 import { MatDatepickerModule } from '@angular/material/datepicker';
 import { MatIconModule } from '@angular/material/icon';
 import { MatDividerModule } from "@angular/material/divider";
+import { MatNativeDateModule } from '@angular/material/core';
+
 
 @NgModule({
     declarations: [],
@@ -20,7 +22,8 @@ import { MatDividerModule } from "@angular/material/divider";
         MatButtonModule,
         MatDatepickerModule,
         MatIconModule,
-        MatDividerModule
+        MatDividerModule,
+        MatNativeDateModule
     ],
     exports: [
         MatTableModule,
@@ -31,7 +34,9 @@ import { MatDividerModule } from "@angular/material/divider";
         MatButtonModule,
         MatDatepickerModule,
         MatIconModule,
-         MatDividerModule
+        MatDividerModule,
+        MatNativeDateModule
+
     ]
 })
 export class AngularMaterialModule { }

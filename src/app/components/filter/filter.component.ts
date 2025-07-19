@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./filter.component.scss']
 })
 export class FilterComponent {
-
+foods =[
+  {
+    value: 'teste',
+    viewValue:'teste,'
+  }
+]
 }
