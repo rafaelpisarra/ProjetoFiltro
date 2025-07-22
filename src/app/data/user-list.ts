@@ -17,7 +17,7 @@ export const UsersList: User[] = [
     telefone: "21998765432",
     ativo: true,
     funcao: "Usuário",
-    dataCadastro: "2022-05-10",
+    dataCadastro: "2025-05-10",
     status: {
       online: false,
       verificado: true,
@@ -41,7 +41,7 @@ export const UsersList: User[] = [
     telefone: "41991234567",
     ativo: false,
     funcao: "Moderador",
-    dataCadastro: "2021-11-03",
+    dataCadastro: "2025-11-03",
     status: {
       online: false,
       verificado: false,
@@ -65,7 +65,7 @@ export const UsersList: User[] = [
     telefone: "71996543210",
     ativo: true,
     funcao: "Administrador",
-    dataCadastro: "2023-03-22",
+    dataCadastro: "2025-03-22",
     status: {
       online: true,
       verificado: true,
@@ -89,7 +89,7 @@ export const UsersList: User[] = [
     telefone: "3198888777",
     ativo: true,
     funcao: "Analista",
-    dataCadastro: "2020-08-14",
+    dataCadastro: "2025-08-14",
     status: {
       online: false,
       verificado: true,
