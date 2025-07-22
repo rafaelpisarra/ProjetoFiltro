@@ -31,13 +31,4 @@ export class AppComponent implements OnInit {
   onFilter(filterOptions: FilterSelectOptions) {
     this.userListfiltered = filterUsersListe(filterOptions, this.userList);
   }
-
-
-
- 
-
-
- 
-
-
 }
